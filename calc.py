@@ -9,4 +9,7 @@ class Calculator:
         return x * y
 
     def divide(self, x, y):
-        return x / y
+        if y != 0:
+            return x / y
+        else:
+            return ("Cannot divide by zero.")
