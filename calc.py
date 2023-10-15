@@ -1,5 +1,13 @@
 class Calculator:
     def add(self, x, y):
+        """
+        Args:
+            x (number): first argumentt
+            y (number): second argument
+
+        Returns:
+            number: the sum of the two argument
+        """
         return x + y
 
     def subtract(self, x, y):
