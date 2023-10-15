@@ -14,6 +14,8 @@ class Calculator:
         return x - y
 
     def multiply(self, x, y):
+        if x == 0:
+            return 0
         return x * y
 
     def divide(self, x, y):
